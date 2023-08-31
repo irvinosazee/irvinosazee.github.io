@@ -1,0 +1,125 @@
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    /* Styles for laptops and desktops */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .logo{
+        font-weight: 600;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .nav-p{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: #023e8a;
+    }
+    
+    a:hover{
+        border-bottom: 5px solid #00b4d8 ;
+        cursor: pointer;
+    }
+    button{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    
+
+}
+
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .logo{
+        font-weight: 600;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .nav-p{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: #023e8a;
+    }
+    
+    a:hover{
+        border-bottom: 5px solid #00b4d8 ;
+        cursor: pointer;
+    }
+    button{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    
+}
+
+/* Phones */
+@media (max-width: 767px) {
+    /* Your styles for phones */
+    .header{
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .nav{
+        display: none;
+    }
+    .nav-p{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    button{
+        border: none;
+        background: none;
+    }
+}
