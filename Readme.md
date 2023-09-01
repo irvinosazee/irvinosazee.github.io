@@ -15,6 +15,8 @@ This is a Portfolio Project
         -Box Icons : "https://boxicons.com/",
         -Uiverse : "https://uiverse.io/"
         -FontAwesome : "https://fontawesome.com/icons/"
+        -IconScout : "https://iconscout.com/" <-----Daily limit for free member ship
+        -Icons8 : "https://icons8.com/"
 
 
     Color palettes:

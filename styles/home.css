@@ -30,10 +30,6 @@
     .about{
         font-size: 24px;
     }
-    .img{
-        width: 48px;
-    }
-
     .loc{
         font-size: 16px;
         padding-top: 48px;
@@ -41,7 +37,7 @@
         align-items: center;
     }
     .loc > img{
-        padding-right: 5px;
+        padding-right: 15px;
         padding-bottom: 5px;
     }
     .avai{
@@ -51,12 +47,13 @@
         align-items: center;
     }
     .avai > img{
-        padding-right: 5px;
+        padding-right: 15px;
         padding-bottom: 5px;
     }
 
     .icons > img{
         padding-right: 5px;
+        width: 48px;
     }
     .card-2{
         display: flex;

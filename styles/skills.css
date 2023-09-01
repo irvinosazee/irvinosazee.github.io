@@ -1,0 +1,90 @@
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    /* Styles for laptops and desktops */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .skills{
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cards-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+    .cards-header > h4{
+        font-weight: 200;
+        background-color: rgb(198, 198, 198);
+        border-radius: 10px;
+        padding: 7px;
+    }
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .skills{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cards-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+    .cards-header > h4{
+        font-weight: 200;
+        background-color: rgb(198, 198, 198);
+        border-radius: 10px;
+        padding: 7px;
+    }
+}
+
+/* Phones */
+@media (max-width: 767px) {
+    /* Your styles for phones */
+    *{
+        padding: 0;
+        margin: 0;
+    }    
+    .skills{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cards-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+    .cards-header > h4{
+        font-weight: 200;
+        background-color: rgb(198, 198, 198);
+        border-radius: 10px;
+        padding: 7px;
+    }
+}
