@@ -12,7 +12,9 @@ This is a Portfolio Project
         -Wepik/Storyset : "https://storyset.com/",
         -Undraw : "https://undraw.co/illustrations",
         -Color palettes : "https://coolors.co/palettes/trending",
-        -Box Icons : "https://boxicons.com/".
+        -Box Icons : "https://boxicons.com/",
+        -Uiverse : "https://uiverse.io/"
+        -FontAwesome : "https://fontawesome.com/icons/"
 
 
     Color palettes:

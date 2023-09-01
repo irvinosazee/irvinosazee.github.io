@@ -1,0 +1,170 @@
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    /* Styles for laptops and desktops */
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .home{
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .cards{
+        padding-left: 32px;
+        padding-right: 32px;
+        gap: 40px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .loc{
+        font-size: 16px;
+        padding-top: 48px;
+        display: flex;
+        align-items: center;
+    }
+    .loc > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .avai{
+        font-size: 16px;
+        padding-bottom: 48px;
+        display: flex;
+        align-items: center;
+    }
+    .avai > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .icons > img{
+        padding-right: 5px;
+    }
+    .card-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-2-img{
+        border-radius: 56px;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    .card-1 > h1{
+        font-size: 64px;
+    }
+
+    .about{
+        font-size: 24px;
+    }
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .home{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .cards{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .card-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loc{
+        font-size: 16px;
+        padding-top: 28px;
+        display: flex;
+        align-items: center;
+    }
+    .loc > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .avai{
+        font-size: 16px;
+        padding-bottom: 28px;
+        display: flex;
+        align-items: center;
+    }
+    .avai > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .card-2-img{
+        border-radius: 56px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 350px;
+    }
+
+}
+
+/* Phones */
+@media (max-width: 767px) {
+    /* Your styles for phones */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .home{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .cards{
+        gap: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .card-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-2-img{
+        border-radius: 56px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 300px;
+    }
+    .loc{
+        font-size: 16px;
+        padding-top: 28px;
+        display: flex;
+        align-items: center;
+    }
+    .loc > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .avai{
+        font-size: 16px;
+        padding-bottom: 28px;
+        display: flex;
+        align-items: center;
+    }
+    .avai > img{
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+}
