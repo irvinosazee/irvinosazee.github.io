@@ -12,7 +12,7 @@
             <span><a href="">Skills</a></span>
             <span><a href="">Contact</a></span>
             <span><button><img src="/assets/icons/sun-unactive.svg" alt="Light mode"></button></span>
-            <span><button><img src="/assets/icons/moon-unactive.svg" alt="Light mode"></button></span>
+            <span><button><img src="/assets/icons/moon-unactive.svg" alt="Dark mode"></button></span>
         </nav>
         <nav class="nav-p">
             <span><button><img src="/assets/icons/menu.svg" alt="Light mode"></button></span>
