@@ -2,17 +2,13 @@
 @media (min-width: 1025px) {
     /* Styles for laptops and desktops */
 
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .home{
         margin-left: 80px;
         margin-right: 80px;
         padding-top: 96px;
         padding-bottom: 96px;
     }
-    .cards{
+    .cards-h{
         padding-left: 32px;
         padding-right: 32px;
         gap: 40px;
@@ -20,11 +16,11 @@
         flex-direction: row;
         font-family: 'Montserrat', sans-serif;
     }
-    .card-1 > h2{
+    .card-1-h > h2{
         font-size: 64px;
         margin-bottom: 24px;
     }
-    .card-1 > p{
+    .card-1-h > p{
         font-size: 24px;
     }
     .about{
@@ -55,12 +51,13 @@
         padding-right: 5px;
         width: 48px;
     }
-    .card-2{
+    .card-2-h{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .card-2-img{
+    .card-2-h-img{
+        width: 450px;
         border-radius: 56px;
         background: rgba(255, 255, 255, 0.1);
 
@@ -71,23 +68,19 @@
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Styles for tablets */
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .home{
         margin-left: 60px;
         margin-right: 60px;
         padding-top: 64px;
         padding-bottom: 64px;
     }
-    .cards{
+    .cards-h{
         gap: 10px;
         display: flex;
         flex-direction: column;
         font-family: 'Montserrat', sans-serif;
     }
-    .card-2{
+    .card-2-h{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,7 +105,7 @@
         padding-right: 5px;
         padding-bottom: 5px;
     }
-    .card-2-img{
+    .card-2-h-img{
         border-radius: 56px;
         background: rgba(255, 255, 255, 0.1);
         width: 350px;
@@ -123,28 +116,24 @@
 /* Phones */
 @media (max-width: 767px) {
     /* Your styles for phones */
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .home{
         margin-left: 60px;
         margin-right: 60px;
         padding-top: 64px;
         padding-bottom: 64px;
     }
-    .cards{
+    .cards-h{
         gap: 40px;
         display: flex;
         flex-direction: column-reverse;
         font-family: 'Montserrat', sans-serif;
     }
-    .card-2{
+    .card-2-h{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .card-2-img{
+    .card-2-h-img{
         border-radius: 56px;
         background: rgba(255, 255, 255, 0.1);
         width: 300px;

@@ -1,10 +1,6 @@
 /* Laptops and Desktops */
 @media (min-width: 1025px) {
     /* Styles for laptops and desktops */
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .header{
         padding-top:20px;
         padding-bottom:20px;
@@ -30,11 +26,12 @@
     }
     a{
         text-decoration: none;
-        color: #023e8a;
+        color: black;
     }
     
     a:hover{
-        border-bottom: 5px solid #00b4d8 ;
+        border-bottom: 5px solid black ;
+        transition: 0.5s ease-in;
         cursor: pointer;
     }
     button{
@@ -42,7 +39,9 @@
         background: none;
         cursor: pointer;
     }
-    
+    .menu{
+        display: none;
+    }
 
 }
 
@@ -51,10 +50,6 @@
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
     /* Styles for tablets */
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .header{
         padding-top:20px;
         padding-bottom:20px;
@@ -80,11 +75,12 @@
     }
     a{
         text-decoration: none;
-        color: #023e8a;
+        color: black;
     }
     
     a:hover{
-        border-bottom: 5px solid #00b4d8 ;
+        border-bottom: 5px solid black ;
+        transition: 0.5s ease-in;
         cursor: pointer;
     }
     button{
@@ -92,7 +88,9 @@
         background: none;
         cursor: pointer;
     }
-    
+    .menu{
+        display: none;
+    }
 }
 
 /* Phones */
@@ -122,4 +120,76 @@
         border: none;
         background: none;
     }
+
+
+
+    /* Popup Menu */
+      .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.1);
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        animation: fadein 0.25s ease-out;
+      }
+      .popup-content {
+        width: 300px;
+        height: 100vh;
+        background: white;
+        box-sizing: border-box;
+        padding: 30px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        animation: scalein 0.25s ease-out;
+      }
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+      .nav-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .nav-menu >  span > a{
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid black;
+      }
+      .br{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        gap: 30px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      @keyframes fadein {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes scalein {
+        0% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
 }
+
+
