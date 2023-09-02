@@ -8,11 +8,11 @@
     <span class="logo">IRVIN</span>
     <nav class="nav">
         <span><a href="#home">Home</a></span>
-        <span><a href="#about">About</a></span>
+        <span><a href="#about">About Me</a></span>
         <span><a href="#skills">Skills</a></span>
         <span><a href="">Contact</a></span>
-        <span><button><img src="/assets/icons/sun-unactive.svg" alt="Light mode"></button></span>
-        <span><button><img src="/assets/icons/moon-unactive.svg" alt="Dark mode"></button></span>
+        <span><button onclick="toggleLight()" class="light"><img src="/assets/icons/sun-unactive.svg" alt="Light mode"></button></span>
+        <span><button onclick="toggleDark()" class="dark"><img src="/assets/icons/moon-unactive.svg" alt="Dark mode"></button></span>
     </nav>
     <nav class="nav-p">
         <span><button><img src="/assets/icons/menu.svg" alt="Light mode" onclick="openPop()"></button></span>
@@ -44,10 +44,12 @@
             </span>
             <br>
             <span>
-              <button class="br js-light-mode"><img src="/assets/icons/sun-unactive.svg" alt="Light mode">Light Mode</button>
+              <button class="br light-2" onclick="toggleLight()"><img src="/assets/icons/sun-unactive.svg" alt="Light mode"><p class="light-active">Light Mode</p></button>
             </span>
             <br>
-            <span><button class="br js-dark-mode"><img src="/assets/icons/moon-unactive.svg" alt="Dark mode">Dark Mode</button></span>
+            <span>
+              <button class="br dark-2" onclick="toggleDark()"><img src="/assets/icons/moon-unactive.svg" alt="Dark mode"><p class="light-active">Dark Mode</p></button>
+          </span>
           </div>
         </div>                   
 </div>

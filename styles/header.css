@@ -43,6 +43,9 @@
         display: none;
     }
 
+    /* Theme Button */
+    
+
 }
 
 
@@ -173,6 +176,15 @@
         justify-content: space-between;
         gap: 30px;
         font-family: 'Montserrat', sans-serif;
+      }
+      .br.light-2, .br.dark-2 {
+        /* Initial button styles */
+        border: none;
+      }
+      .active-button p {
+        border-bottom: 2px solid black;
+        display: inline;
+        padding-bottom: 2px;
       }
       @keyframes fadein {
         0% {
