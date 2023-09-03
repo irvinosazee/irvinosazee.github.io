@@ -1,8 +1,5 @@
 
-document.body.addEventListener('keydown' , event=>{
-    console.log(event.key); 
-    event.key = "Enter" ?  closePop() : null ;
-})
+document.
 // menubar functionalities 
 function closePop() {
 document.querySelector(".menu").style.display = "none";
