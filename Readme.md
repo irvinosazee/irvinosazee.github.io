@@ -1,36 +1,38 @@
-    Author: Irvin
+# Irvin Osazee Portfolio
 
-    Web Tools: 
-        -Php
-        -Css
-        -Javascript
+Welcome to my portfolio! This repository showcases my projects and skills as a software developer.
 
-    Sources: 
-        -Google Fonts :"https://fonts.google.com/specimen/Montserrat"
-        -Neumorphism.io : "https://neumorphism.io/#c60c0c",
-        -Wepik/Storyset : "https://storyset.com/",
-        -Undraw : "https://undraw.co/illustrations",
-        -Color palettes : "https://coolors.co/palettes/trending",
-        -Box Icons : "https://boxicons.com/",
-        -Uiverse : "https://uiverse.io/"
-        -FontAwesome : "https://fontawesome.com/icons/"
-        -IconScout : "https://iconscout.com/" <-----Daily limit for free member ship
-        -Icons8 : "https://icons8.com/"
-        -Css Gradient : "https://cssgradient.io/"
+## Table of Contents
 
+- [Irvin Osazee Portfolio](#irvin-osazee-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [About Me](#about-me)
+  - [Projects](#projects)
+    - [Project 1: Project Name](#project-1-project-name)
+    - [Project 2: Project Name](#project-2-project-name)
+  - [Skills](#skills)
+  - [Contact](#contact)
 
-    Color palettes:
-        -federal-blue: #03045eff;
-        -marian-blue: #023e8aff;
-        -honolulu-blue: #0077b6ff;
-        -blue-green: #0096c7ff;
-        -pacific-cyan: #00b4d8ff;
-        -vivid-sky-blue: #48cae4ff;
-        -non-photo-blue: #90e0efff;
-        -non-photo-blue-2: #ade8f4ff;
-        -light-cyan: #caf0f8ff;
+## About Me
 
+I am a passionate software developer with experience in building web applications using modern technologies. I enjoy solving complex problems and continuously learning new skills.
 
-Using an object tag for an animated svg ang image tag as a fall back 
-    Sample of use 
-        <!-- <object type="image/svg+xml" data="sample.svg"><img src="sample.svg" /></object>  -->
+## Projects
+
+### Project 1: [Project Name](link-to-project)
+- **Description:** Brief description of the project.
+- **Technologies Used:** List of technologies used.
+
+### Project 2: [Project Name](link-to-project)
+- **Description:** Brief description of the project.
+- **Technologies Used:** List of technologies used.
+
+## Skills
+
+- **Programming Languages:** List of programming languages.
+- **Frameworks and Libraries:** List of frameworks and libraries.
+- **Tools and Technologies:** List of tools and technologies.
+
+## Contact
+
+Feel free to reach out to me via [uyiosazeeirvin@gmail.com](mailto:uyiosazeeirvin@gmail.com) or connect with me on [LinkedIn](link-to-linkedin).
