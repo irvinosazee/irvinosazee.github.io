@@ -34,3 +34,5 @@
 Using an object tag for an animated svg ang image tag as a fall back 
     Sample of use 
         <!-- <object type="image/svg+xml" data="sample.svg"><img src="sample.svg" /></object>  -->
+
+revert portfolio back to v1
